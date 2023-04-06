@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="FB_loginStyle.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-child">
+            <div class="Msg">
+                <img src="facebook_img.png" alt="facebook" width="30px" height="30px" class="img_fb">
+                <h1 class="welcome_msg">Facebook helps you connect and share with the people in your life.</h1>
+            </div>
+        </div>
+        <div class="flex-child">
+                <form action="FB_loginPage.php" method="post" class="login">
+                    <input class="textBox" type="text" name="LoginID" placeholder="Email or Phone Number"> 
+                    <br><br>
+
+                    <input class="textBox" type="password" name="Pswd" placeholder="Password">
+                    <br><br>
+
+                    <button class=" btn btn_login">
+                        Log In
+                    </button>
+                    <br><br>
+
+                    <p class="forgot_pswd_Para">
+                        <a href="" class="forgot_pswd_text">Forgot password?</a>
+                    </p>
+                    <br>
+                    <div class="or">
+                        ----------------------------<span>or</span>----------------------------
+                    </div>
+                    <br>
+                    <button class=" btn btn_NewAcc">
+                        <a href="FB_signUpPage.html" class=" btn btn_NewAcc">
+                        Create New Account</a>
+                    </button>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

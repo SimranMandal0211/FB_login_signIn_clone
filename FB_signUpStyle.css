@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex-container{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* border: 2px solid green; */
+}
+.flex-child{
+    margin-top: 20px;
+    padding: 15px;
+    width: 1500px;
+    text-align: center;
+    /* border: 2px solid brown; */
+} 
+.FBimg{
+    width: 280px;
+    height: 85px;
+    /* border: 2px solid red; */
+}
+.signUp{
+    /* border: 1px purple solid; */
+    height: 545px;
+    width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    margin: -45px 0px 0px 500px;
+    padding-top: 10px;
+}
+.msg_creNewAcc{
+    font-size: 30px;
+    background-color: white;
+}
+.msg_newAcc{
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+}
+
+.form_signup{
+    background-color: white;
+    margin-top: 15px;
+    /* border: 1px solid yellowgreen; */
+}
+.nameText{
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    margin: 10px 7px 10px 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.formText{
+    background-color: white;
+    height: 40px;
+    width: 422px;
+    margin: 10px 7px 10px 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.small_msg{
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+    background-color: #fff;
+}
+.date_gen_Text{
+    width: 127px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin: 6px;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+}
+.radio_text{
+    /* border: 1px solid green; */
+    height: 40px;
+    width: 135px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.gen{
+    display: inline-block;
+    margin-right: 6px;
+    /* border: 1px solid blue; */
+}
+.term_condition_para{
+    margin: 10px;
+    background-color: white;
+    color: gray;
+    font-size: 13px;
+}
+.term_condition{
+    color: rgb(16, 87, 168);
+    text-decoration: none;
+    background-color: #fff;
+}
+.btn_SugnUp{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(16, 131, 16);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+.haveAcc_msg{
+    font-size: 22px;
+    color: rgb(16, 87, 168);
+    text-decoration: none;
+    background-color: #fff;
+}
